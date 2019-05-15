@@ -1,0 +1,8 @@
+.jumbotron {
+  padding: 100px;
+  background-image: url(/assets/images/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
