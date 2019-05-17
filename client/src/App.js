@@ -10,7 +10,10 @@ function App() {
   return (
     // using React Router to handle navigation through the site
     <Router>
-      <div>
+      <div style={{
+        backgroundImage: "url(/assets/images/background.jpg)",
+        backgroundSize: "cover"
+      }}>
         {/* The Nav bar is present on every page. */}
         <Nav />
         {/* The Switch tag is used for conditional page rendering based on the specified path. */}
