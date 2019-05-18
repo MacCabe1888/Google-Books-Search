@@ -1,0 +1,13 @@
+hr {
+  border-top: 3px solid #ffffff;
+  box-shadow: 3px 3px #79b6f2;
+}
+
+.pull-right {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.fa-react {
+  color: #79b6f2;
+}

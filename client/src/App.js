@@ -4,16 +4,14 @@ import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import "./style.css";
 
 // Here is the layout of the app.
 function App() {
   return (
     // using React Router to handle navigation through the site
     <Router>
-      <div style={{
-        backgroundImage: "url(/assets/images/background.jpg)",
-        backgroundSize: "cover"
-      }}>
+      <div>
         {/* The Nav bar is present on every page. */}
         <Nav />
         {/* The Switch tag is used for conditional page rendering based on the specified path. */}
