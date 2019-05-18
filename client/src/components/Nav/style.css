@@ -1,3 +1,11 @@
 .navbar {
   border-radius: 0;
 }
+
+span#goo {
+  color: green;
+}
+
+span#boo {
+  color: red;
+}
