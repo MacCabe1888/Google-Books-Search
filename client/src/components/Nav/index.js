@@ -40,7 +40,13 @@ class Nav extends Component {
           className="navbar-brand"
           to="/"
         >
-          <span id="goo">Google</span><span id="boo"> Books</span>
+          <span class="blue">G</span>
+          <span class="red">o</span>
+          <span class="gold">o</span>
+          <span class="blue">g</span>
+          <span class="green">l</span>
+          <span class="red">e</span>
+          <span class="blue"> Books</span>
         </Link>
         <button
           onClick={this.toggleNav}
