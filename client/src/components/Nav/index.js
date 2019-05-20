@@ -35,7 +35,11 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
-        <Link className="navbar-brand" to="/">
+        <Link
+          onClick={this.toggleNav}
+          className="navbar-brand"
+          to="/"
+        >
           <span id="goo">Google</span><span id="boo"> Books</span>
         </Link>
         <button
