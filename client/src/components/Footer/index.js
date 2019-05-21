@@ -5,7 +5,6 @@ import "./style.css";
 function Footer() {
   return (
     <footer>
-      <hr />
       <p className="pull-right">
         <i className="fab fa-react fa-lg" /> Powered by React.js
       </p>
