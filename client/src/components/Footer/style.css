@@ -1,13 +1,8 @@
-hr {
-  border-top: 3px solid #ffffff;
-  box-shadow: 3px 3px #79b6f2;
-}
-
-.pull-right {
-  font-size: 16px;
-  color: #ffffff;
-}
-
-.fa-react {
+p.pull-right {
+  padding: 6px;
+  border-top: 12px solid antiquewhite;
+  border-bottom: 4px solid #79b6f2;
+  background-color: #ffffff;
+  font-size: 20px;
   color: #79b6f2;
 }
