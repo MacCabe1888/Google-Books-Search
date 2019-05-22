@@ -81,7 +81,7 @@ class Home extends Component {
             </Jumbotron>
           </Col>
           <Col size="md-12">
-            <Card title="Book Search" icon="far fa-book">
+            <Card title="Book Search" icon="fas fa-search">
               <Form
                 handleInputChange={this.handleInputChange}
                 handleFormSubmit={this.handleFormSubmit}
@@ -92,7 +92,7 @@ class Home extends Component {
         </Row>
         <Row>
           <Col size="md-12">
-            <Card title="Books">
+            <Card title="Books" icon="far fa-book">
               {/* If our books array is not empty (i.e., if there is at least one search result), */}
               {this.state.books.length ? (
                 // display a list of book components with each book's info.
