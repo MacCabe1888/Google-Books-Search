@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 // This Form component allows the user to search for a book from the Home page by entering the book's title and clicking the "Search" button.
 // The user's query is passed down to the Form component from the Home component's state.
@@ -25,7 +26,7 @@ function Form({ query, handleInputChange, handleFormSubmit }) {
         <button
           onClick={handleFormSubmit}
           type="submit"
-          className="btn btn-lg btn-danger float-right"
+          className="btn btn-lg btn-primary float-right"
         >
           Search
         </button>
